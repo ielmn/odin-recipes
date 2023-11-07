@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/* background image by : https://unsplash.com/@brookelark */
+* {
+    color: rgb(18, 17, 17);
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.food {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.food-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.food h1 {
+    font-family: 'Lobster', sans-serif;
+    color: chocolate;
+    padding-top: 3rem;
+    font-size: 44px;    
+    margin-bottom: 7.5rem;   
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 3); 
+}
+
+.name-wrapper {
+    max-width: 50ch;
+    font-size: 20px;
+}
+
+.food h2 {
+    padding-bottom: 1rem;
+    font-size: 43px;
+    color:  chocolate;
+}
+
+.food p {
+    color: chocolate;
+}
+
+#see-below{
+    margin-top: -48px;
+    background-color: chocolate;
+    text-align: center;
+    padding: 1rem;
+}
+
+#see-below h3{
+    color: white;
+}
+
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem 0 4rem;
+}
+
+.recipe {
+    background-color: #D9DADE;
+}
+
+.recipe ul{
+    list-style-type: none;
+}
+
+.ingredients-list li{
+    margin-bottom: 2px;
+    padding: 7px 20px;
+    background-color: rgb(124, 186, 30);
+    border-radius: 5px;
+    color: white;
+}
+
+.steps-list li{
+    margin-bottom: 2px;
+    padding: 7px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
