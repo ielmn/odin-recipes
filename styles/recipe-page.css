@@ -18,6 +18,11 @@
     margin: 0 auto;
 }
 
+img{
+    border-radius: 20px;
+    box-shadow: 0 5px 30px 5px rgb(0, 0, 0, 0.5);
+}
+
 .food-container {
     display: flex;
     flex-direction: row;
